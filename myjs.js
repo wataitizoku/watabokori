@@ -1,1 +1,1 @@
-alter('Hello, satou!');
+//alert('Hello, satou!');
