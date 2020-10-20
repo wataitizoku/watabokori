@@ -1,10 +1,12 @@
-function sayhello06(){
-　var who = 'world';
-　alert('Hello,' + who + '!');
+function sayhello6(){
+    var who = 'world';
+    alert('Hello, ' + who + '!');
 }
+
 function taro(){
-　who = '太郎';
+    who = '太郎';
 }
+
 function hanako(){
-　who = '花子';
+    who = '花子';
 }
