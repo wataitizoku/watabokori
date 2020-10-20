@@ -1,5 +1,4 @@
-function sayhello(){
- alert("Hello,Function!");
-}
-function saygoodbye(){alert("Goodbye")};
+function sayhello() {alert('Hello, Function!');}
+function saygoodbye() {alert("Goodbye.");}
+
 
