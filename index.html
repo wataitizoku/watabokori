@@ -13,6 +13,9 @@
    <script src="ex6-9.js"></script>
    <script src="ex6-10.js"></script>
    <script src="ex6-11.js"></script>
+   <script src="ex6-12.js"></script>
+   <script src="ex7-1.js"></script>
+   <script src="ex7-3.js"></script>
  </head>
 <body>
   <!--文字の大きさの練習-->
@@ -276,14 +279,33 @@ onclick="saygoodbye();">
 <input type="button" value="画像の変更" onclick="imgchange1();">
 <img src='./image/bulbon.jpg' id="logo" alt="bulbon.jpg"></div>
 
-<h1>タイマーイベントによる実行 6-11</h1>
-<form name="timer">
-<input type="button" value="スタート" onclick="hyoji()"><br>
-<input type="text" name="moji" size="30" value="">
-
-<input type="button" value="Timer"
-onclick="setTimeout('mes()',3000)">
+<div id="image2" >
+<input type="button" value="元の写真に戻す"onclick="imgchange2();">
+<img src='./image/josai.jpg' id="logo" alt="josai.jpg"></div>
 
 
+<h1>タイマーイベントによる実行6-11</h1>
+<form name="timer2"> 
+<input type="button" value="スタート" onclick="hyoji2()">
+<br> 
+<input type="text" name="moji2" size="30" value=""> 
+</form>
+  <br>
+  <h1>タイマーイベントによる実行6-12</h1>
+      <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
+  <img src='./image/josai.png' id="logo2" alt="Josai Logo">
+  <br>
+  <h1>テキストの入力練習</h1>
+  <input type="button" value="あいさつ"
+  onclick="sayhello71();">
+  <p>誰？<input type="text" id="who71"></p>
+<br>
+<h1>足し算</h1>
+<p>
+<input type="text" id="input1">+<input type="text" id="input2">
+<input type="button" value="計算"onclick="add();">
+</p>
+  
+  
 </body>
 </html>
