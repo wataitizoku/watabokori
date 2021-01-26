@@ -1,5 +1,7 @@
 function imgchange1() {
-document.getElementById('logo').src= './image/josai.jpg';}
+document.getElementById('logo').src ='./image/bulbon.gif';
+}
 
 function imgchange2() {
-document.getElementById('logo').src ='./image/bulbon.jpg';}
+document.getElementById('logo').src ='./image/josai.png';
+}
